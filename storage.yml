@@ -1,0 +1,10 @@
+interface: en0
+logLevel: debug
+webhook: https://notify.bot.codex.so/u/ABCDEF00
+goneAfter: 5m
+members:
+  n0str:
+    - 00:00:5e:00:53:af
+    - FF:C1:87:7D:A2:5F
+  khaydarovm:
+    - 2c-54-91-88-c9-e3

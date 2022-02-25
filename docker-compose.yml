@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  whocame:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    tty: true
+    command: rm build/whocame 2> /dev/null ; go build -o build . ; if [ -f "./build/whocame" ]; then echo "Successfully built"; fi
+    volumes:
+      - .:/app
